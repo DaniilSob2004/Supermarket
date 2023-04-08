@@ -45,7 +45,7 @@ namespace HW_CashReceipt
 
         static void Main(string[] args)
         {
-            Console.Title = "CashReceipt";
+            Console.Title = "Supermarket";
 
             Start();
         }
