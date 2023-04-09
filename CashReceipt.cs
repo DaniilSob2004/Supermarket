@@ -36,13 +36,13 @@ namespace HW_CashReceipt
             {
                 // узнаём общую сумму продукта (с учётом скидки и кол-ва)
                 price = (p.Price * (1 - (p.Discount / 100))) * p.Amount;
-
-                Console.WriteLine($"    {p.Amount}x{p.Title}  {p.Price}uah  {p.Discount}%  {price}");
+                
+                Console.WriteLine("{0,-4}{1,-12}{2,-7}{3,-4}{4}", "", (p.Amount.ToString() + "x" + p.Title), (p.Price + "uah"), (p.Discount + "%"), price);
                 total += price;
             }
 
-            Console.WriteLine("\t\t    ---------");
-            Console.WriteLine($"\tTotal:  uah  {total}");
+            Console.WriteLine("\t\t\t---------");
+            Console.WriteLine($"\t  Total:   uah   {total}");
         }
 
         public void Reset()

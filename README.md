@@ -1,6 +1,6 @@
 ============= Supermarket =============
 
-![1](https://user-images.githubusercontent.com/106149184/230712786-83a500fd-d2b1-474e-976d-5819255ec095.png)
+![123](https://user-images.githubusercontent.com/106149184/230789482-4114ce03-5eb1-4720-bcf2-53360ac6acd1.png)
 
  - Программа Supermarket, позволяет пользователю выбирать и покупать продукты.
  - Виды продуктов хранятся в классе "хранилище" - PrototypeProduct
