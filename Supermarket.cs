@@ -28,7 +28,7 @@ namespace HW_CashReceipt
 
         private static void FinalMessage()
         {
-            Console.WriteLine("\n\nThank you!\nPlease, input click to continue...");
+            Console.WriteLine("\n\nThank you!\nPlease, click to continue...");
             Console.ReadKey();
         }
 
