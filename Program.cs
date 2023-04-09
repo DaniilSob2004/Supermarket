@@ -16,7 +16,7 @@ namespace HW_CashReceipt
             // инициализируем хранилище продуктов
             PrototypeProduct.InitPrototype();
 
-            // создаём магазин и передаём в него пустой чек
+            // создаём магазин
             Supermarket supermarket = new Supermarket("Silpo");
 
             int userMenu;
